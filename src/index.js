@@ -19,7 +19,7 @@ const refs = {
 refs.form.style = 'background-color: #4454b7; display: flex; justify-content: center; padding: 9px; margin-bottom: 9px; position: fixed; top: 0; z-index: 99; width: 100%';
 refs.submitBtn.style = 'margin-left: 32px';
 refs.loadMoreBtn.style = 'display: none';
-refs.goUpBtn.style = 'display: none; background-color: none';
+refs.goUpBtn.style = 'display: none';
 
 
 refs.form.addEventListener('submit', onSubmit);
